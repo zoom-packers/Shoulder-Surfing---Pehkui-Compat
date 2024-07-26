@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pandaismyname1.shoulder_surfing_pehkui_compat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ShoulderSurfingCameraMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

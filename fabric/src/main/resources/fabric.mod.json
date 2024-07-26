@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "shoulder_surfing_pehkui_compat",
+  "version": "${version}",
+
+  "name": "Shoulder Surfing Pehkui Compat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pandaismyname1.shoulder_surfing_pehkui_compat.fabric.ShoulderSurfingPehkuiCompatFabric"
+    ]
+  },
+  "mixins": [
+    "shoulder_surfing_pehkui_compat.mixins.json",
+    "shoulder_surfing_pehkui_compat-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "minecraft": ">=1.20.1"
+  }
+}
